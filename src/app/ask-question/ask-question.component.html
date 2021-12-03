@@ -1,0 +1,9 @@
+<div class="wrapper">
+    <div class = "container">
+        <label for="name" class = "label" >Please enter your name</label>
+        <input type="text" class = "textarea" id="name" [(ngModel)]="name">
+        <label class = "label" for = "textarea">Please write your question in the textbox below</label>
+        <textarea  id="textarea" class = "textarea" rows="10" [(ngModel)]="question"></textarea>
+        <button class = "button" (click)= "send()">Send</button>
+    </div>
+</div>
